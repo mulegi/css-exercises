@@ -6,7 +6,7 @@ html, body {
 
 body {
   font-family: Roboto, sans-serif;
-  margin: 0;
+  margin: 20px;
   background: #aaa;
   color: #333;
   /* I'll give you this one for free lol */
@@ -20,6 +20,10 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 20px;
 }
 
 .icon {
@@ -66,4 +70,8 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.header, .text {
+  margin-bottom: 10px;
 }
